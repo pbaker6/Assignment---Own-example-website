@@ -13,15 +13,6 @@ header {
 }
 
 
-#container{
-    width: 750px;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 20px;
-    background-color: #FFFFFF;
-    border-right: solid 2px #52331C;
-    border-left: solid 2px #52331C;
-}
 
 
 nav {
@@ -160,48 +151,4 @@ img {
 
 .gallery img:hover {
     transform: scale(1.50);
-}
-
-/*MENU SECTION*/
-/* Container to position the menu (optional, but good practice) */
-.side-menu-container {
-    width: var(--menu-width);
-    /* For demonstration, adding a border to make the whole block visible */
-    border-left: 1px solid black; 
-    height: 300px; /* Example height */
-}
-
-/* The Unordered List (main menu container) */
-.side-menu {
-    list-style: none; /* Removes the default bullet points */
-    padding: 0;
-    margin: 0;
-}
-
-/* Each List Item */
-.side-menu li {
-    width: 100%; /* Take up the full width of the container */
-    background-color: var(--menu-bg-color);
-    margin-bottom: 2px; /* Small gap between items for separation */
-    /* Add a subtle bottom border for that distinct separation look */
-    border-bottom: 1px solid var(--menu-border-color); 
-    box-sizing: border-box; /* Include padding/border in the element's total width/height */
-}
-
-/* The Link (the text itself) */
-.side-menu li a {
-    display: block; /* Makes the entire block clickable */
-    color: var(--menu-text-color);
-    text-decoration: none; /* Removes the default underline */
-    padding: 8px 10px; /* Top/bottom and left/right padding */
-    font-family: Arial, sans-serif; /* Use a clean, readable font */
-    font-size: 16px;
-    font-weight: bold; /* Text looks bold in the image */
-    text-align: left; /* Ensure text is aligned to the left */
-}
-
-/* Hover effect for better usability */
-.side-menu li a:hover {
-    background-color: #d8c4a4; /* Slightly darker beige on hover */
-    cursor: pointer;
 }
